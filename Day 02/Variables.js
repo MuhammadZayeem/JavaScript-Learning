@@ -1,5 +1,5 @@
 console.log("Variables")
-console.log("use const as much as you can then let but dont use var as it creates bug")
+console.log("use const as much as you can then let , but dont use var as it creates bug")
 let a = "Zayeem"
 const author = "John Doe"
 console.log(a)
