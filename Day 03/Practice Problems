@@ -1,0 +1,31 @@
+//Create a variable string and add a number to it
+let a = "Zayeem"
+let b = 18
+let c = a + " is " + b + " years old."
+console.log(c)
+
+//DataType of the final variable in question 1
+console.log(typeof c)
+
+//Try to Change the data type of an object
+const fruits = {
+    "Apple":3,
+    "Banana":5,
+    "Mango":4,
+    "Peach":8,
+}
+console.log(fruits["Apple"])
+fruits["Apple"]=5
+console.log(fruits["Apple"])
+
+//Add a new key to existing object
+fruits["Strawberry"]=7
+console.log(fruits)
+
+//Word-Meaning Dictionary
+const dict = {
+    "Habit":"Something one performs in free time",
+    "Walk":"To move on legs",
+}
+console.log("Enter word to find its meaning")
+console.log(dict["Walk"])
