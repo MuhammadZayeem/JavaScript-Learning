@@ -1,0 +1,31 @@
+let a = 10
+let b = 12
+
+console.log("a + b = "+ (a+b))
+console.log("b - a = "+ (b-a))
+console.log("a / b = "+ (a/b))
+console.log("a * b = "+ (a*b))
+console.log("a % b = "+ (a%b))
+
+//Comparison Operators
+let c = "45"
+let d = "54"
+let e = 45
+
+console.log(c==d)
+console.log(c==e)
+console.log(c===e)
+console.log(c===d)
+console.log(c<d)
+
+//Expressions
+
+let f = 5
+let g = 6
+console.log(f<g&&f==5)
+console.log(f>g||g==6)
+
+
+
+
+

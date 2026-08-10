@@ -1,0 +1,12 @@
+console.log("Check your eligibility for a driving license")
+let a = prompt("Enter your current age...");
+if(a<9){
+    alert("You are too young to drive..")
+}
+else if(a>=9&&a<18){
+    alert("You are still a tennager and cannot drive")
+}
+else{
+    alert("Congratulations! You are eligible to drive..")
+
+}
