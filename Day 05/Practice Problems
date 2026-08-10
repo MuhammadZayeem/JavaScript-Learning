@@ -1,0 +1,21 @@
+//Check if a person's age lies between 10 and 20 years
+let age = 17
+let result = age>=10&&age<=20? "Yes":"No"
+console.log(result)
+
+//To check whether a number is divisible by 2 or 3
+let number=12
+
+if(number%2==0){
+    console.log("The number is divisible by 2")
+}
+else if(number%3==0){
+    console.log("The number is divisible by 3")
+}
+else{
+    console.log("The number is not divisible by both 2 and 3")
+}
+
+//To Check whether a number is divisible by both 2 and 3
+let output = number%2==0&&number%3==0 ? "Divisible by Both 2 & 3": "Not Divisible by Both 2 & 3";
+console.log(output)
