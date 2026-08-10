@@ -1,0 +1,19 @@
+function Average(x,y){
+    let z=Math.round((x+y)/2)
+    console.log("Average of "+x+" and "+y+" is "+z)
+}
+let a=57
+let b=37
+let c=38
+
+Average(a,b)
+Average(b,c)
+Average(a,c)
+
+//Second way to write a method
+const Sum=(w,v)=>{
+    return w+v
+}
+let d=5
+let e=8
+console.log("Sum of "+d+" and "+e+" is "+Sum(d,e))

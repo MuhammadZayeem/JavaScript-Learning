@@ -1,0 +1,25 @@
+//Simple for loop
+let n=5;
+let sum=0;
+for (let i =0;i<=n;i++){
+   sum=sum+i;     
+}
+console.log("Sum of first "+n+" natural numbers is "+sum)
+
+//For-In Loop          to loop through keys of an object
+let obj = {
+    "Math":40,
+    "English":50,
+    "Urdu":47,
+    "Science":48,
+    "Computer":34,
+}
+for(let a in obj){
+    console.log("Marks of "+ a + " are "+obj[a])
+}
+
+//For-Of Loop          for iteration through iterable values
+let name = "Zayeem"
+for(let a of name){
+    console.log(a)
+}

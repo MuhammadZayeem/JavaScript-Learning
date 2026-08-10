@@ -1,0 +1,14 @@
+//While loop
+let n=10
+let i=0;
+while (i!=n) {
+    console.log(i)
+    i++
+}
+
+//Do While Loop
+let a=10
+let j=9
+do{
+    console.log(j)
+}while(a<j)
