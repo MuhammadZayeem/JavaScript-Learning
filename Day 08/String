@@ -1,0 +1,15 @@
+//Methods to Write
+let name1="Zayeem"
+let name2='Danish'
+let sentence=`"${name1}" and "${name2}" are 'friends'!`
+console.log(sentence)
+
+//Escape Sequence
+// use of \r
+console.log("Downloading 10%\r")
+console.log("Downloading 20%\r")
+console.log("Downloading 30%\r")
+
+//Methods of String
+let name3="Zayeem"
+console.log(name3.replace("Zay","Na"))

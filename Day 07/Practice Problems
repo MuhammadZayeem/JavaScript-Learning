@@ -1,15 +1,15 @@
 //To make the user try again until the correct number is entered
-// let number=27
-// let i=0;
-// let count=0
-// while(i!=27){
-//     if(count>0){
-//         console.log("You Entered wrong number, try again!")
-//     }
-//     i=prompt("Enter the correct Number")
-//     count ++;
-// }
-// console.log("You entered the correct number!!")
+let number=27
+let i=0;
+let count=0
+while(i!=27){
+    if(count>0){
+        console.log("You Entered wrong number, try again!")
+    }
+    i=prompt("Enter the correct Number")
+    count ++;
+}
+console.log("You entered the correct number!!")
 
 //function to get the mean of 5 numbers
 const Mean=(v,w,x,y,z)=>{
