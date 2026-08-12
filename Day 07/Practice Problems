@@ -1,6 +1,6 @@
 //To make the user try again until the correct number is entered
 let number=27
-let i=0;
+let i=0
 let count=0
 while(i!=27){
     if(count>0){
