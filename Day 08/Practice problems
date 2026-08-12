@@ -1,0 +1,27 @@
+// What will it print
+console.log("Zayeem\"".length)
+
+//Using of Functions
+let sentence="The quick brown fox jumps over the lazy dog!"
+let word="brown"
+let word1="wood"
+console.log(`the word "${word1}" ${sentence.includes(word1)? 'is': 'is not'} in the sentence!`)
+console.log(sentence.startsWith("QUICK"))
+console.log(sentence.endsWith("dog!"))
+
+
+
+//To LowerCase
+let sentence1="THIS IS A LAPTOP"
+let lowersentence=sentence1.toLowerCase()
+console.log(lowersentence)
+
+//Extract the amount 
+let sentence3="please give me Rs 1000"
+let amount= sentence3.slice("please give me Rs ".length)
+console.log(amount)
+
+//Change vharacter of string
+let sentence4="Boys is playing outside!"
+let correctSenetence=sentence4.replace("is","are")
+console.log(correctSenetence)
