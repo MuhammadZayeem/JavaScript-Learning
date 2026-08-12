@@ -1,0 +1,9 @@
+//Take input and add it to array
+let array=[1,2,3,4,5,6,7]
+let a = prompt("Enter a Number..")
+a = Number.parseInt(a)
+array.push(a)
+console.log(array)
+
+
+//

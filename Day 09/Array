@@ -19,35 +19,3 @@ let array4=array3.sort()
 let array5=array2.splice(2,6,1,2,3,4,5,6,7,8,9)
 //console.log(array5)
 
-
-//For-Each Loop
-array1.forEach((a)=>{
-   // console.log(a)
-})
-
-
-//From Method
-let name="zayeem"
-let array6=Array.from(name)
-//console.log(array6)
-
-
-//Map Method
-array1.map((a)=>{
-    //console.log(a+a)
-})
-
-
-//Filter method
-let array7=array1.filter((a)=>{
-    return a%2==0
-})
-//console.log(array7)
-
-
-//Reduce Method
-let array8=array1.reduce((a1,a2)=>{
-    return a1*a2
-})
-console.log(array8)
-
