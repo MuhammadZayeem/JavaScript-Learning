@@ -3,7 +3,6 @@ array1.forEach((a)=>{
    // console.log(a)
 })
 
-
 //From Method
 let name="zayeem"
 let array6=Array.from(name)
